@@ -1,0 +1,15 @@
+
+#Adds repo to remote
+git remote add machinelearning https://github.com/vatsalmaheshwari/MachineLearning
+#Check remote access
+git remote -v
+#check branches in repository
+git branch 
+#Add something to be pushed - folder
+git add linear_regression
+#Check git log 
+git log
+#Make the commit with message
+git commit -m 'Here the message'
+#Finally push it
+git push machinelearning main
